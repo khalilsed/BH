@@ -57,7 +57,7 @@ const ContactPage = () => {
                         from_name: formData.fullname,
                         to_name: "BH Equipments",
                         from_email: formData.email,
-                        to_email: "nidhalelchelhi@gmail.com",
+                        to_email: "contact@durand.fr",
                         message: `Phone Number: ${formData.phoneNumber}
                         City: ${formData.city}
                         Message: ${formData.description}
@@ -109,7 +109,7 @@ const ContactPage = () => {
                             value={formData.fullname}
                             onChange={handleInputChange}
                             label="Nom et Prénom*"
-                            placeholder="Nidhal Chelhi"
+                            placeholder=""
                             required
                         />
                         <CustomInput
@@ -118,7 +118,7 @@ const ContactPage = () => {
                             value={formData.email}
                             onChange={handleInputChange}
                             label="Email*"
-                            placeholder="nidhalelchelhi@gmail.com"
+                            placeholder=""
                             required
                         />
                         <CustomInput
@@ -127,7 +127,7 @@ const ContactPage = () => {
                             value={formData.phoneNumber}
                             onChange={handleInputChange}
                             label="Numéro de Téléphone"
-                            placeholder="+216 22 222 222"
+                            placeholder=""
                         />
                         <CustomInput
                             type="text"
@@ -135,7 +135,7 @@ const ContactPage = () => {
                             value={formData.city}
                             onChange={handleInputChange}
                             label="Cité"
-                            placeholder="Marseille, France"
+                            placeholder=""
                         />
                         <CustomInput
                             type="textarea"
@@ -149,7 +149,7 @@ const ContactPage = () => {
                         <div className="flex justify-end">
                             <button
                                 type="submit"
-                                className="bg-secondary text-white text-xl font-bold px-8 lg:px-24 py-3 rounded-2xl hover:bg-primary-dark transition-colors duration-300 mt-4 w-fit h-fit flex items-center justify-end gap-2"
+                                className="bg-secondary text-white text-xl font-bold px-8 lg:px-24 py-3 rounded-2xl hover:bg-primary-dark transition-colors duration-300 mt-4 w-fit h-fit flex items-center justify-end gap-2 hover:scale-[103%] app_transition"
                             >
                                 <span>Envoyer</span>
                                 <SendHorizonal color="white" size={24} />
