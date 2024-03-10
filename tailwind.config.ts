@@ -16,6 +16,7 @@ const config: Config = {
       },
       backgroundImage: {
         hero: "url('/hero.png')",
+        logo: "url('/bg.png')",
         banner: "url('/Group 584.png')",
       },
     },
