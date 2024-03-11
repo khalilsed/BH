@@ -36,7 +36,7 @@ const melangeurs: Product[] = [
     Conçu pour être performant et durable, ce batteur professionnel est alimenté en 220 V et possède des dimensions compactes de 680x940x160 mm, ce qui le rend facile à installer et à utiliser dans n'importe quelle boulangerie ou pâtisserie.
     Offrez-vous le batteur professionnel DR 40 pour un fonctionnement optimal de votre boulangerie ou pâtisserie. Commandez dès maintenant pour une livraison rapide et gratuite en ile de France !"    
     `,
-    images: ["/products/melangeurs/DR40-1.jpg"],
+    images: ["/products/melangeurs/DR20-1.jpg"],
     stock: "available",
     specifications: {
       modèle: "DR-40",
@@ -77,6 +77,31 @@ const mixeurs: Product[] = [
     _id: "1",
     category: "Mixeurs",
     name: "Pétrins à spirale",
+    ref: "DR-25",
+    slug: "mixeur-DR-25",
+    description: `Le pétrin spirale DR 25 de Durand est un équipement de boulangerie et de pâtisserie professionnel qui répond aux normes les plus élevées. Il est spécifiquement conçu pour les professionnels de la boulangerie et de la pâtisserie, leur permettant de pétrir de grandes quantités de pâte de manière rapide et efficace. Son design solide et stable en fait un choix idéal pour une utilisation intensive dans un environnement professionnel.     
+    `,
+    images: [
+      "/products/mixeurs/DR50-1.jpg",
+      "/products/mixeurs/DR50-2.jpg",
+      "/products/mixeurs/DR50-3.jpg",
+    ],
+    stock: "available",
+    specifications: {
+      modèle: "DR-25",
+      capacitéDeFarine: "25 kg",
+      capacitéDePâte: "45 kg",
+      volumeDuBol: "70 L",
+      puissanceÉlectrique: "1.5/2.5",
+      poids: "225 kg",
+      dimensions: "560*975*1135",
+    },
+  },
+
+  {
+    _id: "2",
+    category: "Mixeurs",
+    name: "Pétrins à spirale",
     ref: "DR-50",
     slug: "mixeur-DR-50",
     description: `Le pétrin spirale DR 50 de Durand est un équipement de boulangerie et de pâtisserie professionnel qui répond aux normes les plus élevées. Il est spécifiquement conçu pour les professionnels de la boulangerie et de la pâtisserie, leur permettant de pétrir de grandes quantités de pâte de manière rapide et efficace. Son design solide et stable en fait un choix idéal pour une utilisation intensive dans un environnement professionnel.     
@@ -99,7 +124,7 @@ const mixeurs: Product[] = [
   },
 
   {
-    _id: "2",
+    _id: "3",
     category: "Mixeurs",
     name: "Pétrins à spirale",
     ref: "DR-60",
@@ -119,7 +144,7 @@ const mixeurs: Product[] = [
   },
 
   {
-    _id: "3",
+    _id: "4",
     category: "Mixeurs",
     name: "Pétrins à spirale",
     ref: "DR-100",
@@ -135,6 +160,31 @@ const mixeurs: Product[] = [
       puissanceÉlectrique: "7.5",
       poids: "460 kg",
       dimensions: "720*1250*1400",
+    },
+  },
+
+  {
+    _id: "5",
+    category: "Mixeurs",
+    name: "Pétrins à spirale",
+    ref: "DR-120",
+    slug: "mixeur-DR-120",
+    description: `Le pétrin spirale DR 120 de Durand est un équipement de boulangerie et de pâtisserie professionnel qui répond aux normes les plus élevées. Il est spécifiquement conçu pour les professionnels de la boulangerie et de la pâtisserie, leur permettant de pétrir de grandes quantités de pâte de manière rapide et efficace. Son design solide et stable en fait un choix idéal pour une utilisation intensive dans un environnement professionnel.     
+    `,
+    images: [
+      "/products/mixeurs/DR50-1.jpg",
+      "/products/mixeurs/DR50-2.jpg",
+      "/products/mixeurs/DR50-3.jpg",
+    ],
+    stock: "available",
+    specifications: {
+      modèle: "DR-120",
+      capacitéDeFarine: "25 kg",
+      capacitéDePâte: "45 kg",
+      volumeDuBol: "70 L",
+      puissanceÉlectrique: "1.5/2.5",
+      poids: "225 kg",
+      dimensions: "560*975*1135",
     },
   },
 ];

@@ -8,10 +8,7 @@ const HeroSection = () => {
         <h1 className="text-white text-6xl font-bold text-center uppercase">
           Durand
         </h1>
-        <p className="text-white text-lg font-regular text-center px-4">
-        Nous savons comment les grands objets agiront, mais les choses à petite échelle
-          n’agissez pas ainsi.
-        </p>
+        
         <Link
           href="#categories-section"
           className="bg-secondary text-white font-medium px-6 py-3 rounded-xl cursor-pointer hover:scale-105 app_transition"
