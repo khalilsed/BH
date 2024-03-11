@@ -49,7 +49,7 @@ const ProductPage = () => {
           <div className="col-span-1 flex flex-col items-start justify-start gap-4">
             <div className="flex flex-col items-start justify-start gap-4">
               <h3 className="font-bold text-4xl text-primary">
-                {product.name}
+                {product.name} : {product.ref}
               </h3>
 
               <p>{product.description}</p>
